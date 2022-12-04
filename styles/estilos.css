@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: blanchedalmond;
-    overflow-x: hidden
 }
 
 .primerparrafo {
@@ -92,6 +91,7 @@ h3 {
 footer {
     background-color: pink;
     margin-top: 1em;
+    padding: 20px
 }
 
 .pie {
