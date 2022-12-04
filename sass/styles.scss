@@ -6,6 +6,10 @@ $ancho: 50px;
 font-size: 10px;
 text-transform: uppercase;
 font-weight: bolder;}
+@mixin sizes($width,$height){
+    height:$height;
+    width:$width;
+}
 
 /*mobile first 0px-500px*/
 
@@ -141,9 +145,7 @@ footer {
         color: olive;
     }
 
-    .mapa {
-        height: 100px;
-        width: 200px;
+    .mapa {.my_mixin{@include sizes(200px,100px)}
 
     }
 
@@ -169,7 +171,7 @@ footer {
 
     .mapa {
         height: 150px;
-        width: (ancho*4)+20;
+        width: ($ancho*4)+20;
     }
 
     .mapa {
