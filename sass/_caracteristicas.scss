@@ -1,0 +1,10 @@
+$color:pink;
+$ancho: 50px;
+.h{font-family: 'Roboto', sans-serif;
+font-size: 10px;
+text-transform: uppercase;
+font-weight: bolder;}
+@mixin sizes($width,$height){
+    height:$height;
+    width:$width;
+}

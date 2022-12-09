@@ -1,15 +1,5 @@
-
+@import"caracteristicas";
 @import"generales";
-$color:pink;
-$ancho: 50px;
-.h{font-family: 'Roboto', sans-serif;
-font-size: 10px;
-text-transform: uppercase;
-font-weight: bolder;}
-@mixin sizes($width,$height){
-    height:$height;
-    width:$width;
-}
 
 /*mobile first 0px-500px*/
 
@@ -172,14 +162,14 @@ footer {
     .mapa {
         height: 150px;
         width: ($ancho*4)+20;
-    }
-
-    .mapa {
-        transition: all 3s;
-    }
-
-    .mapa:hover {
-        transform: scale(2);
+    
+        & {
+            transition: all 3s;
+    
+            &:hover {
+                transform: scale(2);
+            }
+        }
     }
 
     .h1 {
