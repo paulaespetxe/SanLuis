@@ -115,7 +115,7 @@ p {
     border-radius: 2px solid olive;
     margin-bottom: 60px;
   }
-  .h1 {
+  h1 {
     font-size: 15px;
   }
   h2 {
@@ -135,7 +135,7 @@ p {
     height: 100px;
     width: 200px;
   }
-  .h1 {
+  h1 {
     font-size: 17px;
   }
   h2 {
@@ -160,14 +160,15 @@ p {
   .mapa:hover {
     transform: scale(2);
   }
-  .h1 {
-    font-size: 20px;
+  h1 {
+    font-size: 30px;
     color: olive;
   }
   h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 1em;
   }
 }/*# sourceMappingURL=styles.css.map */
